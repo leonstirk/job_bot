@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated files
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+
+# API imputs/prompts etc
+prompts/*
+
+# API outputs
+jobs/
+
+# Other temp files
+*.bak
+*.tmp
