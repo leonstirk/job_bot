@@ -12,19 +12,13 @@ This Python project automates parts of the job application process by:
 
 1. Clone the repo
 2. Create a `.env` file with:
-
-   ```
-      OPENAI_API_KEY=your_api_key
-         ```
-	 3. Install dependencies:
-
-   ```
-      pip install -r requirements.txt
-         ```
+```OPENAI_API_KEY=your_api_key```
+3. Install dependencies:
+```pip install -r requirements.txt```
 
 ## Development status
 
-Currently supports scraping from Seek NZ. More platforms and job description enhancements are planned. But you know, it's just a fun little script use it.
+Currently supports scraping from Seek NZ. More platforms and job description enhancements are planned. But you know, it's just a fun little script. Use it.
 
 ## License
 
