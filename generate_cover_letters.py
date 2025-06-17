@@ -12,8 +12,8 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Paths
 ROOT_DIR = Path("jobs")  # or wherever your saved job folders are
-PROMPT_PATH = Path("prompt/prompt_template.txt")
-CV_PATH = Path("prompt/cv_full.txt")  # or use summary version if preferred (prompt/cv_summary.txt)
+PROMPT_PATH = Path("prompts/prompt_template.txt")
+CV_PATH = Path("prompts/cv_full.txt")  # or use summary version if preferred (prompt/cv_summary.txt)
 
 def render_prompt(job_metadata, job_description, cv_text, prompt_template):
     template = Template(prompt_template)

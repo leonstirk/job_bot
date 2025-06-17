@@ -27,6 +27,8 @@ prompts/*
 
 # API outputs
 jobs/
+applied/
+in_progress/
 
 # Other temp files
 *.bak

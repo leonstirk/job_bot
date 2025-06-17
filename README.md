@@ -15,6 +15,11 @@ This Python project automates parts of the job application process by:
 ```OPENAI_API_KEY=your_api_key```
 3. Install dependencies:
 ```pip install -r requirements.txt```
+4. Generate user prompts
+```
+`── prompts                 # Make a prompts folder (mkdir root/prompts)
+    ├── prompt_template.txt # Write a prompt template file with variable fields {{ job_title }}, {{ employer }}, {{ job_description }} {{ cv_text }}.
+    `── cv_full.txt         # Prompt text with CV information (full or summarised)
 
 ## Development status
 
